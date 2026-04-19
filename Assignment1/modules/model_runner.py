@@ -66,14 +66,23 @@ def run_model(model, num_feature, cat_feature, data, target, feature_range=(0, 1
         ('scaler', scaler_transformer)
     ])
 
-    #encoder
-    categorical_transformer = OneHotEncoder(handle_unknown='ignore')
-    preprocessor = ColumnTransformer(
-        transformers=[
-            ('num', numeric_transformer, num_feature),
-            ('cat', categorical_transformer, cat_feature)
-        ]
-    )
+    # Xử lý trường hợp cat_feature rỗng
+    if cat_feature and len(cat_feature) > 0:
+        # Nếu có categorical features
+        categorical_transformer = OneHotEncoder(handle_unknown='ignore')
+        preprocessor = ColumnTransformer(
+            transformers=[
+                ('num', numeric_transformer, num_feature),
+                ('cat', categorical_transformer, cat_feature)
+            ]
+        )
+    else:
+        # Nếu không có categorical features, chỉ xử lý numeric
+        preprocessor = ColumnTransformer(
+            transformers=[
+                ('num', numeric_transformer, num_feature)
+            ]
+        )
 
 # ------------------------------
 # 3. Tạo pipeline tổng
