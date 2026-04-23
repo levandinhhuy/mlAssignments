@@ -15,7 +15,6 @@
 - Phạm Trần Đức Hạnh - 2310896
 - Ngô Minh Huấn - 2311117
 - Nguyễn Quốc Gia Huy - 2311215
-- Bành Huỳnh Minh Huy - 2311118
 - Lê Văn Đình Huy - 2311160 
 
 ## Mục tiêu bài tập lớn
