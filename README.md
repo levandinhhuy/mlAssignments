@@ -24,6 +24,16 @@
 3. Phát triển khả năng phân tích, so sánh, và đánh giá hiệu quả của các mô hình học máy thông qua các chỉ số đo lường.
 4. Rèn luyện kỹ năng lập trình, thử nghiệm, và tổ chức báo cáo khoa học.
 
+## Dataset
+
+Các tập dữ liệu được nhóm sử dụng trong Assignment này:
+
+- **Bài 1 - Dữ liệu dạng bảng (Tabular Data):** [HR Analytics: Job Change of Data Scientists](https://www.kaggle.com/datasets/arashnic/hr-analytics-job-change-of-data-scientists/data?select=aug_train.csv)
+
+- **Bài 2 - Dữ liệu văn bản (Text Data):** [ArXiv Multi-label Text Classification](https://www.kaggle.com/datasets/kelixirr/arxiv-multi-label-text-classification-datasets?select=arxiv34k6L.csv)
+
+- **Bài 3 - Dữ liệu hình ảnh (Image Data):** [Paddy Disease Classification](https://www.kaggle.com/competitions/paddy-disease-classification/data?select=train.csv)
+
 ## Notebook
 
 - [Link notebook Assignment 1](https://colab.research.google.com/drive/1ZiUyHjCq-4apm0_fB8GvbpqxjNT14MwH?usp=sharing)
